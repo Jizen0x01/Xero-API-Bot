@@ -4,7 +4,7 @@
 
 ## Overview
 
-The **Xero API Bot** is a Python-based Discord bot designed to streamline interactions with the Xero API, making it more accessible and user-friendly. This bot provides users with an intuitive way to access information about blocked players, challenges, user status, clans, and players on the xero.gg platform.
+The **Xero Discord Bot** is a Python-based Discord bot designed to streamline interactions with the Xero API, making it more accessible and user-friendly. This bot provides users with an intuitive way to access information about blocked players, challenges, user status, clans, and players on the xero.gg platform.
 
 ## Features
 
@@ -28,13 +28,22 @@ The **Xero API Bot** is a Python-based Discord bot designed to streamline intera
       ```
 
 2. **Bot Setup:**
-   - Copy and paste the provided bot code into a Python file (e.g., `xero_bot.py`).
+   - Copy and paste the provided bot code into a Python file (e.g., `main.py`).
 
 3. **Replace Bot Token and Xero API Keys:**
-   - Open the `xero_bot.py` file.
-   - Replace the following placeholder values with your actual credentials:
-     - `BOT_TOKEN`: Replace with your Discord bot token obtained from the [Discord Developer Portal](https://discord.com/developers/applications).
-     - `XERO_API_ACCESS_KEY_ID` and `XERO_API_SECRET_ACCESS_KEY`: Replace with your Xero API access keys obtained from the [Xero API Dashboard](https://xero.gg/settings/api).
+   - Open the `main.py` file.
+   - Locate the following lines:
+
+     ```python
+     # Placeholder values for the bot token and Xero API keys
+     BOT_TOKEN = "YOUR_DISCORD_BOT_TOKEN"
+     XERO_API_ACCESS_KEY_ID = "YOUR_XERO_API_ACCESS_KEY_ID"
+     XERO_API_SECRET_ACCESS_KEY = "YOUR_XERO_API_SECRET_ACCESS_KEY"
+     ```
+
+   - Replace the placeholder values with your actual credentials:
+     - `YOUR_DISCORD_BOT_TOKEN`: Replace with your Discord bot token obtained from the [Discord Developer Portal](https://discord.com/developers/applications) in main.py.
+     - `YOUR_XERO_API_ACCESS_KEY_ID` and `YOUR_XERO_API_SECRET_ACCESS_KEY`: Replace with your Xero API access keys obtained from the [Xero API Dashboard](https://xero.gg/settings/api) in player_clan.py.
 
 4. **Run the Bot:**
    - Execute the following command to run the bot:
@@ -53,43 +62,7 @@ The **Xero API Bot** is a Python-based Discord bot designed to streamline intera
 
 ## Commands
 
-### Self API Commands
-
-#### `.p block`
-
-Retrieve detailed information about blocked players.
-
-#### `.p challenge`
-
-Retrieve information about ongoing challenges.
-
-#### `.p self`
-
-Get an overview of the user's current status.
-
-#### `.p self_social_friends`
-
-Retrieve information about the user's social friends.
-
-#### `.p self_social_clan`
-
-Get insights into the user's social clan.
-
-### Player/Clan Info Commands
-
-#### `.p clan <clan_name>`
-
-Retrieve detailed information about a specific clan.
-
-#### `.p player <player_name>`
-
-Get comprehensive details about a specific player.
-
-### Help Command
-
-#### `.p api_help`
-
-Display a comprehensive help message containing information about all available bot commands.
+... (rest of your commands section)
 
 ## Contribution
 
