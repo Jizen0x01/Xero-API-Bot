@@ -100,6 +100,8 @@ Get comprehensive details about a specific player.
 
 Display a comprehensive help message containing information about all available bot commands.
 
+![Xero Bot Help](image/screenshot.png)
+
 ## Contribution
 
 Contributions are welcome! If you have ideas for improvements, new features, or encounter any issues, please feel free to open an issue or submit a pull request.
