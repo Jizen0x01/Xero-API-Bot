@@ -26,9 +26,9 @@ async def on_ready():
         print(f"An error occurred during on_ready: {str(e)}")
 
 if __name__ == "__main__":
-    TOKEN = 'YOUR_DISCORD_BOT_TOKEN'
+    BOT_TOKEN = 'YOUR_DISCORD_BOT_TOKEN'
 
     # Use asyncio.run() to run the asynchronous function in a synchronous context
     asyncio.run(load_extensions())
 
-    bot.run(TOKEN)
+    bot.run(BOT_TOKEN)
