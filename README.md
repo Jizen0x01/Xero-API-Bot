@@ -31,7 +31,7 @@ The **Xero API Bot** is a Python-based Discord bot designed to streamline intera
    - Copy and paste the provided bot code into a Python file (e.g., `main.py`).
 
 3. **Replace Bot Token and Xero API Keys:**
-   - Open the `main.py`, `cogs/player_clan.py`
+   - Open the `main.py`, `cogs/player_clan.py` files
    - Locate the following lines:
 
      ```python
