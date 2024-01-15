@@ -42,8 +42,8 @@ The **Xero Discord Bot** is a Python-based Discord bot designed to streamline in
      ```
 
    - Replace the placeholder values with your actual credentials:
-     - `YOUR_DISCORD_BOT_TOKEN`: Replace with your Discord bot token obtained from the [Discord Developer Portal](https://discord.com/developers/applications) in main.py.
-     - `YOUR_XERO_API_ACCESS_KEY_ID` and `YOUR_XERO_API_SECRET_ACCESS_KEY`: Replace with your Xero API access keys obtained from the [Xero API Dashboard](https://xero.gg/settings/api) in player_clan.py.
+     - `YOUR_DISCORD_BOT_TOKEN`: Replace with your Discord bot token obtained from the [Discord Developer Portal](https://discord.com/developers/applications).
+     - `YOUR_XERO_API_ACCESS_KEY_ID` and `YOUR_XERO_API_SECRET_ACCESS_KEY`: Replace with your Xero API access keys obtained from the [Xero API Dashboard](https://xero.gg/settings/api).
 
 4. **Run the Bot:**
    - Execute the following command to run the bot:
@@ -62,7 +62,43 @@ The **Xero Discord Bot** is a Python-based Discord bot designed to streamline in
 
 ## Commands
 
-... (rest of your commands section)
+### Self API Commands
+
+#### `.p block`
+
+Retrieve detailed information about blocked players.
+
+#### `.p challenge`
+
+Retrieve information about ongoing challenges.
+
+#### `.p self`
+
+Get an overview of the user's current status.
+
+#### `.p self_social_friends`
+
+Retrieve information about the user's social friends.
+
+#### `.p self_social_clan`
+
+Get insights into the user's social clan.
+
+### Player/Clan Info Commands
+
+#### `.p clan <clan_name>`
+
+Retrieve detailed information about a specific clan.
+
+#### `.p player <player_name>`
+
+Get comprehensive details about a specific player.
+
+### Help Command
+
+#### `.p api_help`
+
+Display a comprehensive help message containing information about all available bot commands.
 
 ## Contribution
 
@@ -73,3 +109,4 @@ Contributions are welcome! If you have ideas for improvements, new features, or 
 This project is licensed under the [MIT License](LICENSE).
 
 ---
+
