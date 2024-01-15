@@ -4,7 +4,7 @@
 
 ## Overview
 
-The **Xero Discord Bot** is a Python-based Discord bot designed to streamline interactions with the Xero API, making it more accessible and user-friendly. This bot provides users with an intuitive way to access information about blocked players, challenges, user status, clans, and players on the xero.gg platform.
+The **Xero API Bot** is a Python-based Discord bot designed to streamline interactions with the Xero API, making it more accessible and user-friendly. This bot provides users with an intuitive way to access information about blocked players, challenges, user status, clans, and players on the xero.gg platform.
 
 ## Features
 
