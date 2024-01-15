@@ -42,8 +42,8 @@ The **Xero Discord Bot** is a Python-based Discord bot designed to streamline in
      ```
 
    - Replace the placeholder values with your actual credentials:
-     - `YOUR_DISCORD_BOT_TOKEN`: Replace with your Discord bot token obtained from the [Discord Developer Portal](https://discord.com/developers/applications).
-     - `YOUR_XERO_API_ACCESS_KEY_ID` and `YOUR_XERO_API_SECRET_ACCESS_KEY`: Replace with your Xero API access keys obtained from the [Xero API Dashboard](https://xero.gg/settings/api).
+     - `YOUR_DISCORD_BOT_TOKEN`: Replace with your Discord bot token obtained from the [Discord Developer Portal](https://discord.com/developers/applications) in main.py.
+     - `YOUR_XERO_API_ACCESS_KEY_ID` and `YOUR_XERO_API_SECRET_ACCESS_KEY`: Replace with your Xero API access keys obtained from the [Xero API Dashboard](https://xero.gg/settings/api) in player_clan.py.
 
 4. **Run the Bot:**
    - Execute the following command to run the bot:
