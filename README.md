@@ -1,43 +1,55 @@
-# Xero Discord Bot
+# Xero API Discord Bot
 
-![Xero Bot](https://example.com/xero_bot_thumbnail.png)
+![Xero Bot](https://xero.gg/assets/img/2020/logo/logo_hover.png)
 
 ## Overview
 
-The **Xero Discord Bot** is a Python-based Discord bot designed to streamline interactions with the Xero API, offering users an intuitive way to access information about blocked players, challenges, user status, clans, and players on the Xero gaming platform.
+The **Xero Discord Bot** is a Python-based Discord bot designed to streamline interactions with the Xero API, making it more accessible and user-friendly. This bot provides users with an intuitive way to access information about blocked players, challenges, user status, clans, and players on the xero.gg platform.
 
 ## Features
 
 - **Self API Interaction:**
-  - Retrieve information about blocked players, challenges, user status, social friends, and social clan using simple Discord commands.
-  
+  - Retrieve detailed information about blocked players, challenges, user status, social friends, and social clan using simple Discord commands.
+
 - **Player/Clan Info:**
-  - Obtain detailed information about specific clans and players by providing their names.
-  
+  - Obtain in-depth information about specific clans and players by providing their names.
+
 - **Help Command:**
   - Quickly access information about available bot commands with the `api_help` command.
 
 ## Installation
 
-1. Ensure you have Python installed on your machine.
-2. Install the required Python packages:
+1. **Prerequisites:**
+   - Ensure you have Python installed on your machine.
+   - Install the required Python packages:
 
-    ```bash
-    pip install discord.py requests
-    ```
+      ```bash
+      pip install discord.py requests
+      ```
 
-3. Copy and paste the provided bot code into a Python file (e.g., `xero_bot.py`).
-4. Replace the placeholder Xero API access keys in the code with your valid keys.
-5. Run the bot:
+2. **Bot Setup:**
+   - Copy and paste the provided bot code into a Python file (e.g., `xero_bot.py`).
 
-    ```bash
-    python xero_bot.py
-    ```
+3. **Replace Bot Token and Xero API Keys:**
+   - Open the `xero_bot.py` file.
+   - Replace the following placeholder values with your actual credentials:
+     - `BOT_TOKEN`: Replace with your Discord bot token obtained from the [Discord Developer Portal](https://discord.com/developers/applications).
+     - `XERO_API_ACCESS_KEY_ID` and `XERO_API_SECRET_ACCESS_KEY`: Replace with your Xero API access keys obtained from the [Xero API Dashboard](https://xero.gg/settings/api).
+
+4. **Run the Bot:**
+   - Execute the following command to run the bot:
+
+      ```bash
+      python main.py
+      ```
 
 ## Usage
 
-1. Invite the bot to your Discord server.
-2. Use the provided commands to interact with the Xero API and retrieve valuable gaming information.
+1. **Invite the Bot:**
+   - Invite the bot to your Discord server.
+
+2. **Bot Commands:**
+   - Use the following commands to interact with the Xero API and retrieve valuable gaming information.
 
 ## Commands
 
@@ -45,15 +57,15 @@ The **Xero Discord Bot** is a Python-based Discord bot designed to streamline in
 
 #### `.p block`
 
-Retrieve information about blocked players.
+Retrieve detailed information about blocked players.
 
 #### `.p challenge`
 
-Retrieve information about challenges.
+Retrieve information about ongoing challenges.
 
 #### `.p self`
 
-Retrieve information about the user's status.
+Get an overview of the user's current status.
 
 #### `.p self_social_friends`
 
@@ -61,31 +73,30 @@ Retrieve information about the user's social friends.
 
 #### `.p self_social_clan`
 
-Retrieve information about the user's social clan.
+Get insights into the user's social clan.
 
 ### Player/Clan Info Commands
 
 #### `.p clan <clan_name>`
 
-Retrieve information about a specific clan.
+Retrieve detailed information about a specific clan.
 
 #### `.p player <player_name>`
 
-Retrieve information about a specific player.
+Get comprehensive details about a specific player.
 
 ### Help Command
 
 #### `.p api_help`
 
-Display a help message containing information about available bot commands.
+Display a comprehensive help message containing information about all available bot commands.
 
 ## Contribution
 
-Contributions are welcome! If you have ideas for improvements or new features, feel free to open an issue or submit a pull request.
+Contributions are welcome! If you have ideas for improvements, new features, or encounter any issues, please feel free to open an issue or submit a pull request.
 
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
 
 ---
-
