@@ -19,8 +19,8 @@ async def on_ready():
     try:
         print(f"{bot.user} logged in!")
 
-        # Set Lyra's description
-        await bot.change_presence(activity=discord.Game(name="Cooking Something"))
+        
+        await bot.change_presence(activity=discord.Game(name="Testing API"))
 
     except Exception as e:
         print(f"An error occurred during on_ready: {str(e)}")
